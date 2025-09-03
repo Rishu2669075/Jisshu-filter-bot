@@ -49,7 +49,7 @@ DATABASE_URI = environ.get("DATABASE_URI", "mongodb+srv://Rishubhai2:Rishubhai2@
 DATABASE_NAME = environ.get("DATABASE_NAME", "Rishubhai2")
 
 # Files index database url
-FILES_DATABASE = environ.get("FILES_DATABASE", "mongodb+srv://Rishubhai2:Rishubhai2@rishubhai2.gefsdls.mongodb.net/?retryWrites=true&w=majority&appName=Rishubhai2")
+FILES_DATABASE = environ.get("FILES_DATABASE", "-1002810916133")
 COLLECTION_NAME = environ.get("COLLECTION_NAME", "jisshu")
 
 # Other Channel's
@@ -74,7 +74,7 @@ TUTORIAL = environ.get("TUTORIAL", "https://t.me/")
 TUTORIAL_2 = environ.get("TUTORIAL_2", "https://t.me/")
 TUTORIAL_3 = environ.get("TUTORIAL_3", "https://t.me/")
 VERIFY_IMG = environ.get(
-    "VERIFY_IMG", "https://graph.org/file/1669ab9af68eaa62c3ca4.jpg"
+    "VERIFY_IMG", "https://graph.org/file/bfea54d7a2c920860331c-63660eeff49b2b3498.jpg"
 )
 SHORTENER_API = environ.get("SHORTENER_API", "3097623f852197a9ce40d1212aaa8bbf2803e799")
 SHORTENER_WEBSITE = environ.get("SHORTENER_WEBSITE", "omegalinks.in")
@@ -136,7 +136,7 @@ START_IMG = (
 FORCESUB_IMG = environ.get("FORCESUB_IMG", "https://graph.org/file/61b3e842d734fb89caf8c-e7e27195172f955cd1.jpg")
 REFER_PICS = (environ.get("REFER_PICS", "https://graph.org/file/bfea54d7a2c920860331c-63660eeff49b2b3498.jpg")).split()
 PAYPICS = (
-    environ.get("PAYPICS", "https://graph.org/file/f4db1c3ad3d9e38b328e6.jpg")
+    environ.get("PAYPICS", "https://graph.org/file/cd8a38a7faf563e66fd99-9b0d740742deeaa30a.jpg")
 ).split()
 SUBSCRIPTION = environ.get(
     "SUBSCRIPTION", "https://graph.org/file/9f3f47c690bbcc67633c2.jpg"
