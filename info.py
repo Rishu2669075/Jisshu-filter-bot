@@ -24,11 +24,11 @@ PORT = environ.get("PORT", "8082")
 # Owners
 ADMINS = [
     int(admin) if id_pattern.search(admin) else admin
-    for admin in environ.get("ADMINS", "5672857559").split()
+    for admin in environ.get("ADMINS", "6286894502").split()
 ]
 OWNER_USERNAME = environ.get(
     "OWNER_USERNAME", "rishubhai1"
-)  # without @ or https://t.me/
+)  # without @ or https://t.me/rishubha1
 USERNAME = environ.get("USERNAME", "rishubhai1")  # ADMIN USERNAME
 
 # Database Channel
@@ -41,8 +41,8 @@ CHANNELS = [
 AUTH_CHANNEL = int(environ.get("AUTH_CHANNEL", "-1002810916133"))
 AUTH_REQ_CHANNEL = int(environ.get("AUTH_REQ_CHANNEL", "-1002810916133"))
 LOG_CHANNEL = int(environ.get("LOG_CHANNEL", "-1002790419863"))
-LOG_API_CHANNEL = int(environ.get("LOG_API_CHANNEL", "-1002790419863"))
-LOG_VR_CHANNEL = int(environ.get("LOG_VR_CHANNEL", "-1002790419863"))
+LOG_API_CHANNEL = int(environ.get("LOG_API_CHANNEL", "0"))
+LOG_VR_CHANNEL = int(environ.get("LOG_VR_CHANNEL", "0"))
 
 # MongoDB
 DATABASE_URI = environ.get("DATABASE_URI", "mongodb+srv://Rishubhai2:Rishubhai2@rishubhai2.gefsdls.mongodb.net/?retryWrites=true&w=majority&appName=Rishubhai2")
